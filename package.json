@@ -18,7 +18,7 @@
     "eject": "react-scripts eject",
     "image": "docker build -t dino96112/reactku:latest .",
     "delete": "docker rm --force reactjc18",
-    "container": "docker run --name reactjc18 -d -p 8080:80 dino96112/reactku:latest",
+    "container": "docker run --name reactjc18 -d -p 4000:80 dino96112/reactku:latest",
     "deploy":"npm run build && npm run image && npm run delete && npm run container"
   },
   "eslintConfig": {
