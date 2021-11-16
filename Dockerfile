@@ -1,4 +1,5 @@
-# build environment
+# build environment 
+# build ini jika ingin reactnya dibuild di dalam docker container
 FROM node:13.12.0-alpine as build 
 WORKDIR /app
 
